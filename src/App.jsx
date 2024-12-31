@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename="/NavbarReact">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
